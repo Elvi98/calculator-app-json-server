@@ -1,0 +1,171 @@
+{
+    "cardmenu": [
+      {
+        "id": 1,
+        "imgURL": "https://as1.ftcdn.net/v2/jpg/06/26/87/60/1000_F_626876065_lvVcS4lNJEnAFr4IpvHzX8Pc6KjlV43A.jpg",
+        "title": "Agregar Ingreso",
+        "description": "Ej: Sueldo, cobros, frelo, etc.",
+        "cta": "Agregar",
+        "type": "income"
+      },
+      {
+        "id": 2,
+        "imgURL": "https://static.vecteezy.com/system/resources/previews/009/267/401/non_2x/minus-sign-icon-free-png.png",
+        "title": "Agregar Egreso",
+        "description": "Ej: Pago de servicios, comida, transporte, etc.",
+        "cta": "Agregar",
+        "type": "egress"
+      },
+      {
+        "id": 3,
+        "imgURL": "https://as1.ftcdn.net/v2/jpg/03/07/25/46/1000_F_307254609_3JMsfMLbsGRAdDkr1vCQUlQuX7hDtK1m.jpg",
+        "title": "Ver Reporte",
+        "description": "Visualiza el reporte de tu flujo de efectivo.",
+        "cta": "Ver",
+        "type": "report"
+      }
+    ],
+    "users": [
+      {
+        "id": "admin",
+        "firstName": "Admin",
+        "lastName": "One",
+        "email": "user@test",
+        "password": "1234",
+        "birthdate": null,
+        "academicDegree": null,
+        "gender": "female",
+        "role": "admin",
+        "isActive": true
+      },
+      {
+        "id": "admin2",
+        "firstName": "Admin",
+        "lastName": "Two",
+        "email": "user@test.ts",
+        "password": "1234",
+        "birthdate": null,
+        "academicDegree": null,
+        "gender": "male",
+        "role": "Staff",
+        "isActive": true
+      },
+      {
+        "id": "chati",
+        "firstName": "Chati",
+        "lastName": "Mporta",
+        "email": "chat@test.ts",
+        "password": "Chati.123",
+        "birthdate": null,
+        "academicDegree": null,
+        "gender": "male",
+        "role": "Usuario",
+        "isActive": true
+      },
+      {
+        "id": "Testedfr",
+        "firstName": "Testing",
+        "lastName": "Testeador",
+        "email": "test@com",
+        "password": "vfgrkdenvgkj65rt46r4EGR",
+        "birthdate": "2023-10-20T05:00:00.000Z",
+        "academicDegree": "secundaria",
+        "gender": "female",
+        "role": "",
+        "isActive": false
+      }
+    ],
+    "operations": [
+      {
+        "id": 1,
+        "userId": "admin",
+        "type": "Egreso",
+        "categorie": "Servicios",
+        "concept": "Compa de comida en Rappi",
+        "date": "2023-10-19",
+        "amount": -60
+      },
+      {
+        "id": 2,
+        "userId": "admin",
+        "type": "Ingreso",
+        "categorie": "Sueldo",
+        "concept": "Pago de EsSalud",
+        "date": "2023-10-19",
+        "amount": 800
+      },
+      {
+        "id": 3,
+        "userId": "admin",
+        "type": "Egreso",
+        "categorie": "Servicios",
+        "concept": "Pago de la luz",
+        "date": "2023-10-19",
+        "amount": -120.98
+      },
+      {
+        "id": 4,
+        "userId": "admin2",
+        "type": "Egreso",
+        "categorie": "Alimentación",
+        "concept": "Chifita",
+        "date": "2023-10-20T19:56:07.331Z",
+        "amount": -35
+      },
+      {
+        "id": 5,
+        "userId": "admin2",
+        "type": "Ingreso",
+        "categorie": "Freelance",
+        "concept": "Diseño de web",
+        "date": "2023-10-20T20:04:01.038Z",
+        "amount": 300
+      },
+      {
+        "id": 6,
+        "userId": "admin",
+        "type": "Egreso",
+        "categorie": "Transporte",
+        "concept": "Testeando",
+        "date": "2023-10-21T05:09:25.282Z",
+        "amount": -20
+      }
+    ],
+    "roles": [
+      {
+        "id": 1,
+        "name": "Usuario"
+      },
+      {
+        "id": 2,
+        "name": "Staff"
+      }
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "type": "egress",
+        "name": "Alimentación"
+      },
+      {
+        "id": 2,
+        "type": "egress",
+        "name": "Servicios"
+      },
+      {
+        "id": 3,
+        "type": "income",
+        "name": "Sueldo"
+      },
+      {
+        "id": 4,
+        "type": "income",
+        "name": "Freelance"
+      },
+      {
+        "id": 5,
+        "type": "egress",
+        "name": "Transporte"
+      }
+    ]
+  }
